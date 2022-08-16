@@ -9,15 +9,22 @@
       Remove all code in `styles.css`!
     -->
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="phone.css" />
     <script type="module" src="script.js"></script>
   </head>
   <body>
-    <nav>
-      <a href="/" aria-current="page">Home</a>
-      <a href="/page2.html">Other page</a>
-    </nav>
-    <main>
-      <h1>Home page</h1>
-    </main>
+    <div class="main">
+      <div id="phone">
+        <h3>I &hearts; iPhones</h3>
+        <div id="phoneShow"></div>
+        <div id="buttons">
+          <span><button id="black"></button></span>
+          <span><button id="blue"></button></span>
+          <span><button id="pink"></button></span>
+          <span><button id="starlight"></button></span>
+        </div>
+      </div>
+    </div>
+    <script src="phone.js"></script>
   </body>
 </html>
